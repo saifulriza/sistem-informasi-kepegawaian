@@ -22,8 +22,6 @@
 <script src="{{ asset('amChart/chart.js') }}"></script>
 <script src="{{ asset('amChart/animated.js') }}"></script>
 
-
-
 <!-- Chart code -->
 <script>
 am4core.ready(function() {

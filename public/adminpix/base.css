@@ -1,0 +1,8 @@
+
+@import url("{{ asset ('adminpix/plugins/metisMenu/metismenu.css') }}");
+@import url("{{ asset ('adminpix/plugins/animsition/animsition.css') }}");
+@import url("{{ asset ('adminpix/plugins/lobipanel/lobipanel.css') }}");
+@import url("{{ asset ('adminpix/material_icons/materialicon.css') }}");
+@import url("{{ asset ('adminpix/themify-icons/themify-icons.css') }}");
+@import url("{{ asset ('adminpix/pe-icon-7-stroke/pe-icon-7-stroke.css') }}");
+@import url("{{ asset ('adminpix/component_ui.css') }}");

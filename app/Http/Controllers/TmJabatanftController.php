@@ -18,7 +18,6 @@ class TmJabatanftController extends Controller
     public function tambah(Request $request){
         $agm = new \App\JabatanFungsionalt;  
         $agm->tugas_tambahan = $request->tugas_tambahan;
-        $agm->jabatan = $request->jabatan;
         $agm->save();
 
         Alert::success('Sukses Tambah', 'Data berhasil ditambahkan');

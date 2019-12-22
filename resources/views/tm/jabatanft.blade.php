@@ -27,7 +27,6 @@
                   <thead>
                     <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 162px;" aria-sort="ascending" aria-label="Name: activate to sort column descending">Kode Jabatan</th>
                     <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 248px;" aria-label="Position: activate to sort column ascending">Tugas Tambahan</th>
-                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 248px;" aria-label="Position: activate to sort column ascending">Jabatan</th>
                     <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" style="width: 248px;" aria-label="Position: activate to sort column ascending">Aksi</th>
                     </thead>
                   <tfoot>
@@ -37,7 +36,6 @@
                   <tr role="row" class="odd">
                   <td>{{$d->kode_jbtft}}</td>
                   <td>{{$d->tugas_tambahan}}</td>
-                  <td>{{$d->jabatan}}</td>
                   <td>
                     <!-- Button trigger modal -->
                     <!-- Button trigger modal -->
@@ -61,7 +59,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Tambah Tambahan</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Tambah Golongan</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -74,10 +72,6 @@
         <div class="col-md-6">
         <label >Tugas Tambahan</label>
         <input type="text" name="tugas_tambahan" class="form-control">
-        </div>
-        <div class="col-md-6">
-        <label >Jabatan</label>
-        <input type="text" name="jabatan" class="form-control">
         </div>
         </div>
 
