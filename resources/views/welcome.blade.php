@@ -22,12 +22,11 @@
 						<div class="banner-content text-center">
 							<p class="text-uppercase text-white">We work hard, we result perfect</p>
 							<h1 class="text-uppercase text-white">Sistem informasi <span style="color:red">kepegawaian</span></h1>
-                            <a href="/login" class="primary-btn banner-btn" >Masuk</a>
-                            <a href="/register" class="primary-btn banner-btn">Daftar</a>
+                            <a href="{{ route('login') }}" class="primary-btn banner-btn" >Masuk</a>
+                            <a href="{{ route('register') }}" class="primary-btn banner-btn">Daftar</a>
 						</div>
 					</div>
 				</div>
 			</div>
-        </section>
-
-        @endsection
+		</section>
+@endsection
