@@ -14,7 +14,7 @@ cache:
     - vendor
 
 before_script:
-  - cp .env.travis .env
+  - cp .env.example .env
   - sudo mysql -e 'CREATE DATABASE simpegawai;'
   - composer self-update
   - composer install --no-interaction
